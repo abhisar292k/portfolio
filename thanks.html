@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanks for Contacting!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap">
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(to bottom right, #ff9a9e, #fad0c4);
+            background-size: 200% 200%;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            animation: gradientAnimation 10s ease infinite;
+            text-align: center;
+        }
+
+        .thanks-container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 2rem 3rem;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            width: 100%;
+        }
+
+        .thanks-container h1 {
+            font-family: 'Lobster', cursive;
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: #333;
+        }
+
+        .thanks-container p {
+            font-size: 1.5rem;
+            margin-top: 1rem;
+            line-height: 1.5;
+            color: #666;
+        }
+
+        .thanks-container .icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            color: #f7345e;
+            animation: thumbsUp 2s infinite;
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        @keyframes thumbsUp {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .thanks-container {
+                padding: 1.5rem 2rem;
+            }
+
+            .thanks-container h1 {
+                font-size: 2.5rem;
+            }
+
+            .thanks-container p {
+                font-size: 1.2rem;
+            }
+
+            .thanks-container .icon {
+                font-size: 3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="thanks-container">
+        <div class="icon">👍</div>
+        <h1>Thanks for Contacting!</h1>
+        <p>I have received your message and will get back to you shortly.</p>
+    </div>
+</body>
+</html>
