@@ -1,4 +1,3 @@
-![Uploading demo2.png…]()
 ![demo1](https://github.com/abhisar292k/portfolio/assets/106023423/91c115f8-d96c-4865-bdd0-9b29c93d2fbb)
 ![demo](https://github.com/abhisar292k/portfolio/assets/106023423/2d97acd1-3dec-4fe1-8bc5-33ec63111020)
 
